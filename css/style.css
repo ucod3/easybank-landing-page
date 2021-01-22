@@ -1,3 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+/* Css Variables */
+:root {
+	--primary-dark-blue: hsl(233, 26%, 24%);
+	--primary-lime-green: hsl(136, 65%, 51%);
+	--primary-bright-cyan: hsl(192, 70%, 51%);
+	--neutral-grayish-blue: hsl(233, 8%, 62%);
+	--neutral-light-grayish-blue: hsl(220, 16%, 96%);
+	--neutral-very-light-gray: hsl(0, 0%, 98%);
+	--white: hsl(0, 0%, 100%);
+}
+
+/* Reset */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Public Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--neutral-grayish-blue);
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*Navbar */
+.navbar {
+	height: 80px;
+	font-weight: 300;
+}
+
+.navbar ul {
+	display: flex;
+}
+.navbar a {
+	color: var(--neutral-grayish-blue);
+	padding: 20px 10px;
+	margin: 0 5px;
+}
+
+.navbar a:hover {
+	border-bottom: 4px solid var(--primary-lime-green);
+	color: var(--primary-dark-blue);
+}
+.navbar .flex {
+	justify-content: space-between;
+}
+
+.navbar > button {
+	display: flex;
+}
+
 /* Attribution */
 .attribution {
 	font-size: 11px;
