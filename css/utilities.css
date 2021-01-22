@@ -1,0 +1,47 @@
+/*Utilities */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 40px;
+}
+
+.btn {
+	display: inline-block;
+	padding: 10px 30px;
+	cursor: pointer;
+	border-radius: 15px;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+.btn:hover {
+	opacity: 0.6;
+}
+
+.btn-primary {
+	background: linear-gradient(
+		to right,
+		var(--primary-lime-green),
+		var(--primary-bright-cyan)
+	);
+}
+
+/* Background & Colored Buttons */
+.bg-primary {
+	background-color: var-(--white);
+}
+
+.bg-secondary {
+	background-color: var-(--neutral-grayish-blue);
+}
+.bg-dark {
+	background-color: var(--primary-dark-blue);
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
